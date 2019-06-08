@@ -1,0 +1,21 @@
+telnet         启动服务
+set localecho      看到返回信息
+open smtp.qq.com     链接qq邮箱
+helo qq       开始打招呼（helo+某某或  。。。。）
+auth login   用户登录
+MTM2MTYxMTU0OEBxcS5jb20=    用户名加密（base64）1361611548@qq.com
+                                                         授权码（有时限，独立密码不能用）
+mail from:<1361611548@qq.com>   来自哪个邮箱
+rcpt to:<1431739506@qq.com>       发送给哪个邮箱
+data    数据（以“.”+回车结束）
+1.
+subject:hello fuck you man   主题
+
+永远永远             内容（和主题空一行）
+
+2.伪造邮件
+From：admin@qq.com
+To:1431739506@qq.com
+subject:
+
+
